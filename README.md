@@ -75,6 +75,9 @@ stone-paper-and-scissors/
 - agregar sonido y efectos visuales
 - implementar un modo de dificultad
 
+<img width="1905" height="949" alt="image" src="https://github.com/user-attachments/assets/98f0995c-64fa-48ab-9814-ecabfac20046" />
+
+
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia incluida en [LICENSE.txt](LICENSE.txt).
