@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel o Tijeras - Arcade Edition ⚡</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Lienzo para Partículas de Fondo -->
+  <canvas id="particles-canvas"></canvas>
+
+  <div class="container" id="game-card">
+    <div class="message" id="status-msg">¡ELIGE TU JUGADA!</div>
+
+    <div class="arena">
+      <div class="player hand-container">
+        <span class="hand-label">JUGADOR</span>
+        <div class="hand" id="player-hand">✊</div>
+      </div>
+      
+      <div class="computer hand-container">
+        <span class="hand-label">CPU</span>
+        <div class="hand" id="computer-hand">✊</div>
+      </div>
+    </div>
+
+    <div class="points">
+      <div>JUGADOR: <span class="score" id="player-score">0</span></div>
+      <div>CPU: <span class="score" id="computer-score" style="color:#a855f7;">0</span></div>
+    </div>
+
+    <div class="options">
+      <button class="btn-option" data-choice="STONE">
+        <span>✊</span> Piedra
+      </button>
+      <button class="btn-option" data-choice="PAPER">
+        <span>✋</span> Papel
+      </button>
+      <button class="btn-option" data-choice="SCISSORS">
+        <span>✌️</span> Tijeras
+      </button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
